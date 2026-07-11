@@ -94,4 +94,4 @@ States, without regard to conflict-of-law principles.
 
 ## Contact
 
-Questions about these terms: **support@stoics.app**
+Questions about these terms: **support@stoics.chat**

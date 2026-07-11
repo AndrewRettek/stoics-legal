@@ -84,4 +84,4 @@ date and, where possible, surface the change in the app on next launch.
 ## Contact
 
 For privacy questions or deletion requests, write to:
-**support@stoics.app**
+**support@stoics.chat**
