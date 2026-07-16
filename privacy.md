@@ -5,7 +5,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-_Last updated: 2026-05-29_
+_Last updated: 2026-07-16_
 
 Stoics ("the app") is operated by Andrew Rettek ("we", "us"). This policy
 describes what data we collect, why, and how it is handled.
@@ -63,7 +63,7 @@ States.
 
 ## Children
 
-Stoics is rated 12+ and is not directed at children under 13. We do not
+Stoics is rated 9+ on the App Store and is not directed at children under 13. We do not
 knowingly collect any data from children under 13. If you believe a child
 has used the app and provided data, please contact us and we will delete
 the associated installation.

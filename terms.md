@@ -32,7 +32,7 @@ you represent that you meet this requirement.
 The app offers two auto-renewing subscriptions:
 
 - **Stoics Monthly** — $4.99 per month
-- **Stoics Yearly** — $29.99 per year
+- **Stoics Yearly** — $39.99 per year
 
 Each subscription begins with a **7-day free trial**. If you do not cancel
 at least 24 hours before the trial ends, your subscription will
