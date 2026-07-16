@@ -7,7 +7,7 @@ permalink: /privacy/
 
 _Last updated: 2026-07-16_
 
-Stoics ("the app") is operated by Andrew Rettek ("we", "us"). This policy
+Stoics ("the app") is operated by YeahBuddyGames ("we", "us"). This policy
 describes what data we collect, why, and how it is handled.
 
 ## What we collect

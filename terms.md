@@ -8,7 +8,7 @@ permalink: /terms/
 _Last updated: 2026-07-16_
 
 These terms govern your use of the Stoics app ("the app", "the service"),
-operated by Andrew Rettek ("we", "us").
+operated by YeahBuddyGames ("we", "us").
 
 ## The service
 
