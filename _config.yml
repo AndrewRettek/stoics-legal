@@ -1,3 +1,11 @@
-title: Stoics Legal
-description: Legal documents for the Stoics app.
+title: Stoics
+description: Support and legal documents for the Stoics app.
 theme: minima
+
+# Explicit nav, so a new page never lands in the site chrome by accident.
+# This repo is the App Store "App Support" destination; every page listed
+# here is visible to anyone who taps that button, including App Review.
+header_pages:
+  - support.md
+  - privacy.md
+  - terms.md
