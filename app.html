@@ -1,0 +1,188 @@
+---
+layout: none
+permalink: /app/
+title: Stoics — seven philosophers, one group chat
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stoics — seven philosophers who argue about your problem</title>
+<meta name="description" content="Bring a real problem to seven ancient philosophers. They answer in their own voice, cite the passage, and disagree with each other. iPhone and iPad.">
+<link rel="canonical" href="https://stoics.chat/app/">
+
+<!-- Open Graph: this page's whole job is to be pasted into Reddit, Hacker News
+     and group chats, all of which render a card from these tags. Without them
+     a link reads as a bare URL, which is the difference between a post that
+     looks like a product and one that looks like spam. -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://stoics.chat/app/">
+<meta property="og:title" content="Seven philosophers, one group chat">
+<meta property="og:description" content="They answer in their own voice, cite the passage, and disagree with each other.">
+<meta property="og:image" content="https://stoics.chat/assets/shot-chat.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+  /* The app's own palette, from Theme.swift / Theme.kt, so the page and the
+     product do not look like two different things. */
+  :root {
+    --parchment: #EDE8DC;
+    --card: #F7F4EC;
+    --olive: #4E5B41;
+    --ink: #2B2A24;
+    --faint: #8C8676;
+    --hairline: #DCD5C4;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--parchment);
+    color: var(--ink);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 56px 22px 72px; }
+  h1 {
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    font-size: clamp(2rem, 7vw, 3rem);
+    line-height: 1.12;
+    letter-spacing: -0.5px;
+    margin: 0 0 18px;
+  }
+  .lede { font-size: clamp(1.05rem, 3.4vw, 1.2rem); color: var(--faint); margin: 0 0 34px; }
+  h2 {
+    font-family: Georgia, "Iowan Old Style", serif;
+    font-size: 1.35rem; margin: 52px 0 14px;
+  }
+  ul.points { list-style: none; padding: 0; margin: 0 0 36px; }
+  ul.points li { padding: 9px 0 9px 22px; position: relative; }
+  ul.points li::before {
+    content: "·"; position: absolute; left: 4px; color: var(--olive); font-weight: 700;
+  }
+  .cta {
+    display: inline-block; background: var(--olive); color: #fff;
+    text-decoration: none; font-weight: 600; font-size: 1.05rem;
+    padding: 15px 30px; border-radius: 10px;
+  }
+  .cta:hover { background: #3f4a34; }
+  .cta-note { color: var(--faint); font-size: 0.92rem; margin: 14px 0 0; }
+  /* Horizontal scroll rather than a stack: three tall phone shots stacked push
+     everything else off the page on mobile. */
+  .shots {
+    display: flex; gap: 16px; overflow-x: auto; padding: 6px 0 14px;
+    scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+  }
+  .shots figure { margin: 0; flex: 0 0 auto; scroll-snap-align: start; width: 210px; }
+  .shots img {
+    width: 100%; height: auto; display: block;
+    border: 1px solid var(--hairline); border-radius: 12px; background: var(--card);
+  }
+  .shots figcaption { color: var(--faint); font-size: 0.85rem; margin-top: 8px; }
+  blockquote {
+    margin: 0 0 20px; padding: 16px 18px; background: var(--card);
+    border-left: 3px solid var(--olive); border-radius: 4px;
+  }
+  blockquote p { margin: 0 0 8px; }
+  blockquote p:last-child { margin: 0; }
+  blockquote .who { font-weight: 600; }
+  blockquote cite {
+    display: block; color: var(--faint); font-size: 0.82rem;
+    font-style: normal; letter-spacing: 0.06em; text-transform: uppercase; margin-top: 6px;
+  }
+  .fine { color: var(--faint); font-size: 0.88rem; }
+  footer {
+    margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--hairline);
+    color: var(--faint); font-size: 0.9rem;
+  }
+  footer a { color: var(--olive); }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --parchment: #1C1B17; --card: #24231E; --ink: #EDE8DC;
+      --faint: #9A9484; --hairline: #3A382F;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Seven philosophers,<br>one group chat.</h1>
+  <p class="lede">
+    Bring something you are actually stuck on. Marcus Aurelius, Seneca,
+    Epictetus, Zeno and Cato answer in their own voice — joined by Diogenes the
+    Cynic and Epicurus, who came to disagree.
+  </p>
+
+  <a class="cta" href="https://apps.apple.com/us/app/id6788806297">Get it on the App Store</a>
+  <p class="cta-note">iPhone and iPad, iOS 17 or later. Free for seven days.</p>
+
+  <h2>It is an argument, not an answer</h2>
+  <ul class="points">
+    <li>All seven voices — ask one by name, or put it to the room.</li>
+    <li>Real citations. A named text and passage, never invented.</li>
+    <li>The guests exist to disagree. Epicurus contests the Stoics on their own porch.</li>
+    <li>A daily reading and a reflection, with a streak if you want one.</li>
+  </ul>
+
+  <h2>What that looks like</h2>
+  <blockquote>
+    <p><span class="who">Epictetus.</span> You did not want the title. You wanted
+    to be the sort of man who gets it, and that is a different hunger, which no
+    promotion has ever fed.</p>
+    <cite>after Enchiridion</cite>
+  </blockquote>
+  <blockquote>
+    <p><span class="who">Diogenes.</span> He has your job and you have your envy.
+    Of the two of you, only one is carrying something heavy.</p>
+    <cite>via Diogenes Laërtius, Lives VI</cite>
+  </blockquote>
+  <p class="fine">
+    Illustrative of the form and the citation style. Replies are generated fresh
+    for what you bring, so yours will not be these.
+  </p>
+
+  <div class="shots">
+    <figure>
+      <img src="{{ '/assets/shot-chat.jpg' | relative_url }}" alt="A group chat where several philosophers reply in turn, each with a citation."
+           width="620" height="1347" loading="lazy">
+      <figcaption>The room, mid-argument</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/shot-voices.jpg' | relative_url }}" alt="The seven philosophers with portraits and dates."
+           width="620" height="1347" loading="lazy">
+      <figcaption>Who is in the room</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/shot-readings.jpg' | relative_url }}" alt="A daily reading from the Stoic canon with a reflection prompt."
+           width="620" height="1347" loading="lazy">
+      <figcaption>A reading a day</figcaption>
+    </figure>
+  </div>
+
+  <h2>Being straight with you</h2>
+  <p class="fine">
+    Replies are AI-generated in the voice of historical figures. They are not the
+    words of those people, and Stoics is not therapy, medical, legal or financial
+    advice. It is for reflection. If you are in crisis, the app will say so and
+    point you somewhere that can actually help.
+  </p>
+  <p class="fine">
+    Free for seven days, then $4.99 a month or $39.99 a year. Cancel in your
+    Apple account settings. Android is in progress.
+  </p>
+
+  <p style="margin-top:34px">
+    <a class="cta" href="https://apps.apple.com/us/app/id6788806297">Get it on the App Store</a>
+  </p>
+
+  <footer>
+    <a href="{{ '/support/' | relative_url }}">Support</a> ·
+    <a href="{{ '/privacy/' | relative_url }}">Privacy</a> ·
+    <a href="{{ '/terms/' | relative_url }}">Terms</a><br>
+    Yeah Buddy Games · <a href="mailto:support@stoics.chat">support@stoics.chat</a>
+  </footer>
+
+</div>
+</body>
+</html>
