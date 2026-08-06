@@ -1,8 +1,15 @@
 ---
 layout: none
-permalink: /app/
+permalink: /
 title: Stoics — seven philosophers, one group chat
 ---
+{% comment %}
+  This is the ROOT page as of 2026-08-06. It used to live at /app/ while the
+  support page held root, which meant every link posted anywhere landed on a
+  support page. Support moved to /support/ — where it always also existed — and
+  the App Store "App Support" URL was repointed there the same day. /app/ still
+  resolves via app.md so links already published do not 404.
+{% endcomment %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,14 +17,14 @@ title: Stoics — seven philosophers, one group chat
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stoics — seven philosophers who argue about your problem</title>
 <meta name="description" content="Bring a real problem to seven ancient philosophers. They answer in their own voice, cite the passage, and disagree with each other. iPhone and iPad.">
-<link rel="canonical" href="https://stoics.chat/app/">
+<link rel="canonical" href="https://stoics.chat/">
 
 <!-- Open Graph: this page's whole job is to be pasted into Reddit, Hacker News
      and group chats, all of which render a card from these tags. Without them
      a link reads as a bare URL, which is the difference between a post that
      looks like a product and one that looks like spam. -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://stoics.chat/app/">
+<meta property="og:url" content="https://stoics.chat/">
 <meta property="og:title" content="Seven philosophers, one group chat">
 <meta property="og:description" content="They answer in their own voice, cite the passage, and disagree with each other.">
 <meta property="og:image" content="https://stoics.chat/assets/shot-chat.jpg">

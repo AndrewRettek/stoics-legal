@@ -1,10 +1,14 @@
 title: Stoics
-description: Support and legal documents for the Stoics app.
+description: Seven ancient philosophers, one group chat. Support and legal documents.
 theme: minima
 
 # Explicit nav, so a new page never lands in the site chrome by accident.
-# This repo is the App Store "App Support" destination; every page listed
-# here is visible to anyone who taps that button, including App Review.
+#
+# Root is the LANDING page as of 2026-08-06 (app.html) and uses layout: none,
+# so it does not render this nav at all — it has its own footer links. These
+# pages are the ones reached from the App Store "App Support" URL, which now
+# points at /support/ rather than root. Everything listed here is visible to
+# anyone who taps that button, including App Review.
 header_pages:
   - support.md
   - privacy.md
